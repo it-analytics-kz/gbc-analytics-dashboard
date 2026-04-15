@@ -138,8 +138,9 @@ npx next build → 4/4 pages generated, size dashboard route ~188 kB first load 
 
 ## Результаты
 
-- Дашборд (Vercel): _после деплоя_.
-- Telegram-скриншот: уведомление о заказе #105A (81 000 ₸) и #106A (85 000 ₸).
+- Дашборд (Vercel): https://gbc-analytics-dashboard-sandy.vercel.app/
+- GitHub: https://github.com/it-analytics-kz/gbc-analytics-dashboard
+- Telegram-скриншот: уведомления о заказах #105A (81 000 ₸) и #106A (85 000 ₸) в @boulat_bot.
 - Скрипты и README — в этом репозитории.
 
 ## Как сдать
