@@ -1,29 +1,29 @@
-# Тестовое задание — AI Tools Specialist
+# Задание — AI Tools Specialist
 
 Построй мини-дашборд заказов. Используй Claude Code CLI (или другой AI-инструмент).
 
-## Что нужно сделать
-
-### Шаг 1: Создай аккаунты (всё бесплатно)
+## Я создал аккаунты:
 
 - [RetailCRM](https://www.retailcrm.ru/) — демо-аккаунт
 - [Supabase](https://supabase.com/) — бесплатный проект
 - [Vercel](https://vercel.com/) — бесплатный аккаунт
-- [Telegram Bot](https://t.me/BotFather) — создай бота
+- [Telegram Bot](https://t.me/boulat_bot) — бот
 
-### Шаг 2: Загрузи заказы в RetailCRM
+## Что нужно сделать
+
+### Шаг 1: Загрузи заказы в RetailCRM
 
 В репо есть `mock_orders.json` — 50 тестовых заказов. Загрузи их в свой RetailCRM через API.
 
-### Шаг 3: RetailCRM → Supabase
+### Шаг 2: RetailCRM → Supabase
 
 Напиши скрипт который забирает заказы из RetailCRM API и кладёт в Supabase.
 
-### Шаг 4: Дашборд
+### Шаг 3: Дашборд
 
 Сделай веб-страницу с графиком заказов (данные из Supabase). Задеплой на Vercel.
 
-### Шаг 5: Telegram-бот
+### Шаг 4: Telegram-бот
 
 Настрой уведомление в Telegram когда в RetailCRM появляется заказ на сумму больше 50,000 ₸.
 
