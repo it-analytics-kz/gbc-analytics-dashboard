@@ -141,3 +141,7 @@ npx next build → 4/4 pages generated, size dashboard route ~188 kB first load 
 - Дашборд (Vercel): _после деплоя_.
 - Telegram-скриншот: уведомление о заказе #105A (81 000 ₸) и #106A (85 000 ₸).
 - Скрипты и README — в этом репозитории.
+
+## Как сдать
+
+Результат отправлять в Telegram: @DmitriyKrasnikov
