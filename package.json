@@ -1,0 +1,25 @@
+{
+  "name": "gbc-analytics-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "load:retailcrm": "node --env-file=.env scripts/load-mock-orders.mjs",
+    "sync:supabase": "node --env-file=.env scripts/sync-to-supabase.mjs",
+    "bot:telegram": "node --env-file=.env scripts/telegram-bot.mjs"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.4",
+    "next": "14.2.15",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "recharts": "^2.12.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.16.10",
+    "@types/react": "^18.3.11",
+    "typescript": "^5.6.2"
+  }
+}

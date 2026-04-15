@@ -1,0 +1,33 @@
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Inter, sans-serif;
+  background: #f6f7f9;
+  color: #111;
+}
+main { max-width: 1100px; margin: 0 auto; padding: 32px 20px 64px; }
+h1 { font-size: 24px; margin: 0 0 4px; }
+.subtitle { color: #666; margin: 0 0 24px; font-size: 14px; }
+
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin-bottom: 24px; }
+.card {
+  background: #fff; border: 1px solid #e8eaee; border-radius: 12px;
+  padding: 16px 18px; box-shadow: 0 1px 2px rgba(16,24,40,.04);
+}
+.card .label { color: #6b7280; font-size: 12px; text-transform: uppercase; letter-spacing: .04em; }
+.card .value { font-size: 26px; font-weight: 600; margin-top: 6px; }
+.card .sub { color: #9ca3af; font-size: 12px; margin-top: 4px; }
+
+.chart-block, .table-block {
+  background: #fff; border: 1px solid #e8eaee; border-radius: 12px;
+  padding: 16px 18px; margin-bottom: 20px;
+}
+.chart-block h2, .table-block h2 { font-size: 16px; margin: 0 0 12px; }
+
+table { width: 100%; border-collapse: collapse; font-size: 14px; }
+th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid #eef0f3; }
+th { color: #6b7280; font-weight: 500; font-size: 12px; text-transform: uppercase; }
+tbody tr:hover { background: #fafbfc; }
+.pill { display: inline-block; padding: 2px 8px; border-radius: 999px; background: #eef2ff; color: #3730a3; font-size: 12px; }
+
+.refresh-note { color: #9ca3af; font-size: 12px; margin-top: 16px; }
